@@ -1,11 +1,17 @@
 import Header from './components/Header'
+import Button from './components/Button'
+import {useState} from "react";
+import Meals from './components/Meals'
 
 function App() {
-  const name = 'Emil'
+  const [meals, setMeals] = useState([])
 
   return (
     <div className='container'>
       <Header/>
+      <Button setMeals = {setMeals}/>
+      <Meals meals = {meals} />
+
     </div>
   );
 }
