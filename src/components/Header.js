@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <header>
-           <h1>Find your dinner</h1> 
+           <h1 style={{ color:'orange' }}>Find your dinner</h1> 
         </header>
     )
 }
