@@ -1,6 +1,17 @@
-button {
+.btn {
     display: inline-block;
-    margin: 0 auto;
-    padding: 10px 5px;
-    color: green;
-}
+    color: rgb(250, 178, 69);
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 800;
+  
+  }
+
+  .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }

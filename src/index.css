@@ -12,13 +12,4 @@ code {
     monospace;
 }
 
-.btn {
-  display: inline-block;
-  color: rgb(250, 178, 69);
-  margin: 5px;
-  border-radius: 20px;
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: 800;
 
-}
