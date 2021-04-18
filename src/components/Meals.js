@@ -1,13 +1,14 @@
 import React from 'react'
 import SingleMeal from './SingleMeal'
+import "./Meals.css"
 
 function Meals(props) {
-    console.log(props.meals);
+    //console.log(props.meals);
     return (
-        <div>
-            {props.meals.map((meal,idx) => 
+        <div className = "meals-container">
+             {props.meals.map((meal,idx) => 
              <SingleMeal meal = {meal} key = {idx} />
-            )}
+            )} 
         </div>
     )
 }

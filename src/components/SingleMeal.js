@@ -1,16 +1,17 @@
 import React from 'react'
+import "./SingleMeal.css";
 
 function SingleMeal(props) {
     const meal = props.meal
-    const ingredients = Object.keys(meal).filter(key=>key.includes('strIngredient'))
-    console.log(ingredients);
+    let ingredients = Object.keys(meal).filter(key=>key.includes('strIngredient'));
+    ingredients = ingredients.filter(ingredient => meal[ingredient] !== "");
     return (
-        <div>
+        <div className = "single-meal">
             <h3>{meal.strMeal}</h3> 
            <img src={meal.strMealThumb} alt="food"/>
-           <div className="ingredients">
-               {ingredients.map(ingredient=><p>{meal[ingredient]}</p>)}
-                </div>
+            <div className="ingredients">
+               {ingredients.map((ingredient, idx)=><p key={idx}>{meal[ingredient]}</p>)}
+                </div> 
         </div>
     )
 }

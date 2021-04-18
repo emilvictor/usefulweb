@@ -1,0 +1,14 @@
+.single-meal {
+    text-align: center;
+    box-shadow: 8px;
+}
+
+.single-meal img {
+    width: 400px;
+    height: 300px;
+}
+
+.ingredients h3 {
+    color: green;
+    
+}
