@@ -16,3 +16,5 @@ The assignment is to create a small application using React. There are no limits
 - Needs to be uploaded and presented on Netlify or Vercel.
 
 <b>Made by:<b> Emil Pettersson
+
+<b>View the site;<b>  https://useful-web.netlify.app/
