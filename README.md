@@ -15,4 +15,4 @@ The assignment is to create a small application using React. There are no limits
 - Should include at least one API call. And its data should be presented.
 - Needs to be uploaded and presented on Netlify or Vercel.
 
-
+<b>Made by:<b> Emil Pettersson
