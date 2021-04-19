@@ -1,14 +1,17 @@
 .single-meal {
     text-align: center;
     box-shadow: 8px;
+    color: green;
+    font-family: fantasy;
 }
 
 .single-meal img {
     width: 400px;
-    height: 300px;
+    height: 350px;
 }
 
 .ingredients {
     color: green;
 
 }
+
