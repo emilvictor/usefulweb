@@ -4,7 +4,7 @@ This is a school project created in React.
 
 <b>Assignment description + requirements:</b>
 
-**Below you'll find a list of requirements:**
+The assignment is to create a small application using React. There are no limits for what you can create so use your imagination and the knowledge you've got from our previous lessons. You are allowed to work in pairs.
 
 - It should be built in ReactJS.
 - Should implement nice graphical user interface.
